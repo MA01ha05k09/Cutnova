@@ -5,7 +5,7 @@
   justify-content: space-between;
   position: relative;
   color: white;
-  height: 80vh;
+  height: 95vh;
 }
 .main-div::before {
   content: "";
