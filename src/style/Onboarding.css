@@ -1,0 +1,46 @@
+.main-div {
+  background-image: url("../Images/BoarBarber.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  color: white;
+}
+.main-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  z-index: 1; /* Ensure the black layer stays behind other content */
+}
+
+.gerstarted-div {
+  text-align: center;
+  margin-top: 56px;
+
+}
+.button-div {
+  width: 90%;
+  background-color: #bca681;
+  padding: 10px 10px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.cutnova-class {
+    z-index: 2;
+    background-color: transparent;
+   
+  padding: 20px 10px;
+}
+.cutnova_image {
+  z-index: 2;
+}
+.manage-div{
+    font-size: 13px;
+    word-spacing: 6px;
+}

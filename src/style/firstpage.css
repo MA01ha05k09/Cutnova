@@ -1,0 +1,11 @@
+.main-div {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.886);
+  /* background-image: url('./Images/firstbgimage.png'); */
+  /* background-size: cover; */
+  height: 100vh;
+  /* background-position: center; */
+}
