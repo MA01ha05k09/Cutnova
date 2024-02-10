@@ -1,0 +1,76 @@
+.create-main-div{
+    display: flex;
+    justify-content: center;
+}
+.create-your-account-div{
+    text-align: center;
+    color: white;
+}
+.input-div-1{
+    display: flex;
+    background-color:rgba(30,30,30,255);
+    flex-direction: column;
+    gap: 5px;
+  
+    
+
+
+}
+.create-input-page{
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 80%;
+}
+.ragitra-page{
+    background-color:rgba(30,30,30,255) ;
+
+}
+.signed-div{
+    color: white;
+}
+.create-account-div{
+    text-align: center;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  
+}
+.create-account-button{
+    width: 90%;
+    height: 50px;
+    background-color: #bca681;
+    padding: 10px 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px
+}
+.create-last-button{
+ padding: 10px;
+ border-radius: 10px;
+width: 100px;
+
+}
+.create-last-div{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 0px;
+}
+.already-div{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.create-hr-div{
+width: 109px;
+   
+
+}
+.create-or-sign-in-with{
+    display: flex;
+    justify-content: center;
+padding: 0px 10px ;
+}
+.create-hr-or-sign-in-with-Parent{
+    display: flex;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import "../style/Onboarding.css"
 import icon from "../Images/logo.png"
 import button from "../Images/button.png"
+import { Link } from 'react-router-dom'
 const Onboarding = () => {
     return (
         <div className='main-div'>
@@ -19,9 +20,11 @@ const Onboarding = () => {
                 <p>Manage your Social media, Appointments, and Payments with ease</p>
             </div>
             {/* button */}
+            <Link to="/Create">
             <div className='gerstarted-div'>
                 <button className='button-div'>Ger started</button>
             </div>
+            </Link>
             </div>
         </div>
 
