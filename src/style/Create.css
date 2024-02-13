@@ -1,116 +1,101 @@
-.create-main-div{
-    display: flex;
-    justify-content: center;
-   
+.create-main-div {
+  display: flex;
+  justify-content: center;
 }
-.create-your-account-div{
-    text-align: center;
-    color: white;
+.create-your-account-div {
+  text-align: center;
+  color: white;
 }
-.input-div-1{
-    display: flex;
-    background-color:rgba(30,30,30,255);
-    flex-direction: column;
-    gap: 5px;
-  
-    
-
-
+.input-div-1 {
+  display: flex;
+  background-color: rgba(30, 30, 30, 255);
+  flex-direction: column;
+  gap: 5px;
 }
-.create-input-page{
-    padding: 12px 10px;
-    border-radius: 10px;
-    width: 90%;
-
+.create-input-page {
+  padding: 12px 10px;
+  border-radius: 10px;
+  width: 90%;
 }
-.ragitra-page{
-    background-color:rgba(30,30,30,255) ;
-   height: 100vh;
+.ragitra-page {
+  background-color: rgba(30, 30, 30, 255);
+  height: 100vh;
 }
-.signed-div{
-    color: white;
+.signed-div {
+  color: white;
 }
-.create-account-div{
-    text-align: center;
+.create-account-div {
+  text-align: center;
   margin-top: 56px;
   margin-bottom: 20px;
-  
 }
-.create-account-button{
-    width: 90%;
-    height: 50px;
-    background-color: #bca681;
-    padding: 10px 10px;
-    color: white;
-    font-size: 15px;
-    border: none;
-    border-radius: 7px
+.create-account-button {
+  width: 90%;
+  height: 50px;
+  background-color: #bca681;
+  padding: 10px 10px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
 }
-.create-last-button{
-    display: flex;
-    background-color: white;
-    gap: 15px;
- padding: 10px 18px;
- border-radius: 10px;
-width: 100px;
-
-
+.create-last-button {
+  display: flex;
+  background-color: white;
+  gap: 15px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  /* width: 100px; */
 }
-.create-last-div{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    padding: 10px 0px;
+.create-last-div {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px 0px;
 }
-.already-div{
-    display: flex;
-    justify-content: center;
-    color: white;
+.already-div {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
-.create-hr-div{
-width: 123px;
-   
-
+.create-hr-div {
+  width: 123px;
 }
-.create-or-sign-in-with{
-    display: flex;
-    justify-content: center;
-padding: 0px 10px ;
-color: white;
+.create-or-sign-in-with {
+  display: flex;
+  justify-content: center;
+  padding: 0px 10px;
+  color: white;
 }
-.create-hr-or-sign-in-with-Parent{
-    display: flex;
+.create-hr-or-sign-in-with-Parent {
+  display: flex;
 }
 /* top-image-section */
-.top-image-section-div{
-display: flex;
-justify-content: space-around;
+.top-image-section-div {
+  display: flex;
+  justify-content: space-around;
 }
-.img-1-salon{
-    /* position: absolute; */
+.img-1-salon {
+  /* position: absolute; */
 }
-.img-2-hairstraightener{
-    margin-top: 40px;
+.img-2-hairstraightener {
+  margin-top: 40px;
 }
-.img-3-chair{
-    margin-top: 40px;
+.img-3-chair {
+  margin-top: 40px;
 }
-.img-4-facial{
-    margin-top: 40px;
+.img-4-facial {
+  margin-top: 40px;
 }
-.img-5-hairdryer{
-
+.img-5-hairdryer {
 }
-.hading-img{
-    width: 50px;
+.hading-img {
+  width: 50px;
 }
-.cutnova-logo{
-    width: 125px;
-    margin-top: -21px;
+.cutnova-logo {
+  width: 125px;
+  margin-top: -21px;
 }
-.create-last-logo{
-
-    
-    width: 20px;
-
+.create-last-logo {
+  width: 20px;
 }
