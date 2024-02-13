@@ -47,9 +47,13 @@
     border-radius: 7px
 }
 .create-last-button{
- padding: 10px;
+    display: flex;
+    background-color: white;
+    gap: 15px;
+ padding: 10px 14px;
  border-radius: 10px;
 width: 100px;
+
 
 }
 .create-last-div{
@@ -64,7 +68,7 @@ width: 100px;
     color: white;
 }
 .create-hr-div{
-width: 120px;
+width: 123px;
    
 
 }
@@ -103,4 +107,10 @@ justify-content: space-around;
 .cutnova-logo{
     width: 125px;
     margin-top: -21px;
+}
+.create-last-logo{
+
+    
+    width: 20px;
+
 }

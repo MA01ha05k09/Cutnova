@@ -6,6 +6,8 @@ import hairdryer from "../Images/hairdryer 2.png"
 import hairstraightener from "../Images/hair-straightener 2.png"
 import facial from "../Images/facial-treatment (1) 2.png"
 import chair from "../Images/chair 2.png"
+import google from "../Images/google logo.png"
+import facebook from "../Images/facebook.webp"
 import { Link } from 'react-router-dom'
 const Create = () => {
   return (
@@ -77,7 +79,7 @@ const Create = () => {
           </div>
         </div>
       </div>
-      
+
       <div className='create-hr-or-sign-in-with-Parent'>
         <div className='create-hr-div'> <hr /> </div>
         <div className='create-or-sign-in-with'> Or sign in with </div>
@@ -85,8 +87,19 @@ const Create = () => {
       </div>
       <div >
         <div className='create-last-div' >
-          <button className='create-last-button'>Google</button>
-          <button className='create-last-button'>Facebook</button>
+          <div className='create-last-button'>
+           
+            <div>
+              <img className='create-last-logo' src={google} alt=' google' />
+            </div>
+            <div>Google</div>
+          </div>
+          <div className='create-last-button'>
+         < div>
+              <img className='create-last-logo' src={facebook} alt=' facebook' />
+            </div>
+            <div>Facebook</div>
+          </div>
 
         </div>
 
