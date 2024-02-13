@@ -11,29 +11,29 @@ const Create = () => {
   return (
 
     <div className='ragitra-page'>
-       {/* top-image-section */}
-       <div className='top-image-section-div'>
+      {/* top-image-section */}
+      <div className='top-image-section-div'>
         {/* img-1 */}
-        <div  className='img-1-salon '> 
-          <img className=' hading-img' src={salon} alt='salon'/>
+        <div className='img-1-salon '>
+          <img className=' hading-img' src={salon} alt='salon' />
         </div>
         {/* img-2 */}
         <div className='img-2-hairstraightener ' >
-          <img className = 'hading-img'src={hairstraightener} alt='hairstraightener'/>
-           </div>
+          <img className='hading-img' src={hairstraightener} alt='hairstraightener' />
+        </div>
         {/* img-3 */}
-        <div  className= 'img-3-chair '>
-          <img className='hading-img' src={chair} alt='chair'/>
+        <div className='img-3-chair '>
+          <img className='hading-img' src={chair} alt='chair' />
         </div>
         {/* img-4 */}
         <div className='img-4-facial '>
-          <img className='hading-img' src={ facial} alt=' facial'/>
+          <img className='hading-img' src={facial} alt=' facial' />
         </div>
         {/* img-5 */}
         <div className='img-5-hairdryer '>
-          <img className='hading-img' src={hairdryer} alt='hairdryer'/>
+          <img className='hading-img' src={hairdryer} alt='hairdryer' />
         </div>
-       </div>
+      </div>
       {/* creats-logo */}
       <div>
         <div className='create-main-div'>
@@ -77,6 +77,7 @@ const Create = () => {
           </div>
         </div>
       </div>
+      
       <div className='create-hr-or-sign-in-with-Parent'>
         <div className='create-hr-div'> <hr /> </div>
         <div className='create-or-sign-in-with'> Or sign in with </div>

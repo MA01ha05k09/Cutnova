@@ -20,12 +20,12 @@
 .create-input-page{
     padding: 12px 10px;
     border-radius: 10px;
-    width: 75%;
+    width: 90%;
 
 }
 .ragitra-page{
     background-color:rgba(30,30,30,255) ;
-
+   height: 100vh;
 }
 .signed-div{
     color: white;
