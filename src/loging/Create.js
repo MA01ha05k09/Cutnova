@@ -1,16 +1,44 @@
 import React from 'react'
 import "../style/Create.css"
 import icon from "../Images/logo.png"
+import salon from "../Images/salon 2.png"
+import hairdryer from "../Images/hairdryer 2.png"
+import hairstraightener from "../Images/hair-straightener 2.png"
+import facial from "../Images/facial-treatment (1) 2.png"
+import chair from "../Images/chair 2.png"
 import { Link } from 'react-router-dom'
 const Create = () => {
   return (
 
     <div className='ragitra-page'>
-
+       {/* top-image-section */}
+       <div className='top-image-section-div'>
+        {/* img-1 */}
+        <div  className='img-1-salon '> 
+          <img className=' hading-img' src={salon} alt='salon'/>
+        </div>
+        {/* img-2 */}
+        <div className='img-2-hairstraightener ' >
+          <img className = 'hading-img'src={hairstraightener} alt='hairstraightener'/>
+           </div>
+        {/* img-3 */}
+        <div  className= 'img-3-chair '>
+          <img className='hading-img' src={chair} alt='chair'/>
+        </div>
+        {/* img-4 */}
+        <div className='img-4-facial '>
+          <img className='hading-img' src={ facial} alt=' facial'/>
+        </div>
+        {/* img-5 */}
+        <div className='img-5-hairdryer '>
+          <img className='hading-img' src={hairdryer} alt='hairdryer'/>
+        </div>
+       </div>
+      {/* creats-logo */}
       <div>
         <div className='create-main-div'>
           <Link to="/Create">
-            <img src={icon} alt='icon' />
+            <img className='cutnova-logo' src={icon} alt='icon' />
           </Link>
         </div>
 
@@ -49,10 +77,10 @@ const Create = () => {
           </div>
         </div>
       </div>
-<div className='create-hr-or-sign-in-with-Parent'>
-      <div className='create-hr-div'> <hr /> </div>
-      <div  className='create-or-sign-in-with'> Or sign in with </div>
-      <div className='create-hr-div'> <hr /> </div>
+      <div className='create-hr-or-sign-in-with-Parent'>
+        <div className='create-hr-div'> <hr /> </div>
+        <div className='create-or-sign-in-with'> Or sign in with </div>
+        <div className='create-hr-div'> <hr /> </div>
       </div>
       <div >
         <div className='create-last-div' >
