@@ -84,10 +84,11 @@ const Create = () => {
           </div>
 
         </div>
-
+<Link className='link-tag' to = "/login">
         <div className='already-div'>
           <p>Already have an account? Sign In</p>
         </div>
+</Link>
 
       </div>
     </div>

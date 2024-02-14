@@ -23,3 +23,7 @@ code {
   border: none;
   border-radius: 7px;
 }
+/* link-tag */
+.link-tag{
+  text-decoration: none;
+}
