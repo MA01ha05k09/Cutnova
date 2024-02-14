@@ -12,5 +12,14 @@ code {
     monospace;
 }
 
-
-  
+/* create account button */
+.create-account-button {
+  width: 90%;
+  height: 50px;
+  background-color: #bca681;
+  padding: 10px 10px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 7px;
+}
