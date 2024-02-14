@@ -9,7 +9,7 @@ const SignUp = () => {
     return (
         <div className='login-page'>
             <div>
-                <HeaderImages />
+                {/* <HeaderImages /> */}
             </div>
             <div>
                 <div className='login-main-div' >
