@@ -67,8 +67,8 @@
   display: flex;
 }
 .cutnova-logo {
-  width: 125px;
-  margin-top: -21px;
+  width: 130px;
+  margin-top: 10px;
 }
 .login-last-logo {
   width: 20px;
@@ -90,4 +90,5 @@
 .Forgot-Password-div{
     color: white;
     text-align: end;
+    width: 90%;
 }
