@@ -1,0 +1,67 @@
+.Forgot-main-div {
+  display: flex;
+  justify-content: center;
+}
+.Rectangle-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+} 
+.Rectangle-logo-div {
+  display: flex;
+  justify-content: center;
+}
+.Forgot-page {
+  background-color: rgba(30, 30, 30, 255);
+  height: 100vh;
+}
+.Forgot-your-password-div {
+  text-align: center;
+  color: white;
+}
+.register-email-div{
+    /* background-color: white; */
+    border-radius: 5px;
+    text-align: center;
+font-size: 12px;
+    
+}
+.forgot-card-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.forgot-last-button-div{
+    text-align: center;
+    /* margin-top: 56px; */
+    /* margin-bottom: 20px; */
+}
+.forgot-input-page{
+    width: 80%;
+    /* height: 50px; */
+    background-color: #eae4d9;
+    padding: 15px 10px;
+    color:#d3bf9c;
+    font-size: 13px;
+    border: none;
+    border-radius: 7px;
+}
+
+.cuttnova-logo{
+    width: 130px;
+    margin-top: 10px;
+}
+.forgot-remember-div{
+    display: flex;
+    justify-content: center;
+    color:white;
+    /* background-color: black; */
+    background-color: rgba(30, 30, 30, 255);
+
+}
+
+
