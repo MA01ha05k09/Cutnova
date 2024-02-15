@@ -32,10 +32,11 @@ const SignUp = () => {
                             <input className='login-input-page' type='text' placeholder='Password'></input>
 
                         </div>
+                        <Link className='login' to="/forgot">
                        <div className='Forgot-Password-div'>
                         Forgot Password?
                        </div>
-
+                       </Link>
 
                         <div className='login-account-div'>
                             <button className='login-account-button'>Sing in</button>
@@ -69,11 +70,11 @@ const SignUp = () => {
                             <div>Facebook</div>
                         </div>
                     </div>
-
+<Link className='link-tag'to ="/create">
                     <div className=' login-dont-div'>
                         <p>don't have an account? Sign In</p>
                     </div>
-
+                    </Link> 
                 </div>
 
             </div>

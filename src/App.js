@@ -15,7 +15,7 @@ function App() {
 <Route path="/onboard" element={<Onboarding/>} />
 <Route path= "/Create" element={<Create/>}/>
 <Route path= "/login" element={<Login/>}/>
-<Route path= "/Forgot" element={<Forgot/>}/>
+<Route path= "/forgot" element={<Forgot/>}/>
 
 
       </Routes>
